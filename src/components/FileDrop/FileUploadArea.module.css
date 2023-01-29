@@ -1,0 +1,73 @@
+.uploadFileBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4.3px;
+    background-color: #eef6ff;
+    border: 1.1px dashed rgba(39, 116, 207, 0.3);
+    box-sizing: border-box;
+    width: 778.89px;
+    height: 217.38px;
+  }
+  .dragDrop {
+    color: #0f0f0f;
+  }
+  .span {
+    color: #333;
+  }
+  .browse {
+    text-decoration: underline;
+  }
+  .dragDropContainer {
+    position: relative;
+    line-height: 25.83px;
+  }
+  .dragDropFiles {
+    position: absolute;
+    top: 118.38px;
+    left: calc(50% - 118.88px);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-md);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .supportedFormatesJpeg {
+    position: relative;
+    line-height: 19.37px;
+  }
+  .supportedFormats {
+    position: absolute;
+    top: 154.97px;
+    left: calc(50% - 206.38px);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-md);
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 12.91px;
+    color: #676767;
+  }
+  .uploadIcon {
+    position: absolute;
+    height: 29.65%;
+    width: 15.46%;
+    top: 14.85%;
+    right: 42.3%;
+    bottom: 55.5%;
+    left: 42.25%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    src:"https://d1xzdqg8s8ggsr.cloudfront.net/63d3b045b1cdb18864bb08a2/45430d74-dd36-4291-ba03-529b4c55256e_1674819789713522901?Expires=-62135596800&Signature=mmrzaXMXaS-eFx~qW~CN1YdB9SMLXriYrsM~z3mju98KVG-unQ1GovlrPusdFlxY0R3NUC2ESB2Gp1qOqlPplppZ25d~~3WpXPyTJPnfddnLIqI1WhhrPj1-1BzfZQS891urd0nztHOfKd9PV4rpYNQTycZoqPWEvM0o3CkriBNe~6Idm5fwqLslcazsEUPV5VLlFT8-oQegWqaBQz38lj2jzUBE10ArzxwSu0IOWzc0tM4DSoNUfdkYWlmKCknleJPoI8k-6bclNWwwDYs~ovwzXSDdHlBpudmK0teeDz8qdRhNvYNV74Tu8qzrVo9zMaX0F~dMs6aZj7cItsUSmg__&Key-Pair-Id=K1P54FZWCHCL6J"
+  }
+  .fileUploadArea {
+    position: relative;
+    width: 100%;
+    height: 217.38px;
+    text-align: center;
+    font-size: 17.22px;
+    color: #4c95eb;
+    font-family: var(--font-mulish);
+  }
+  

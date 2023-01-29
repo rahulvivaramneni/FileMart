@@ -1,0 +1,126 @@
+.rectangle,
+.rectangle1,
+.rectangle2 {
+  position: absolute;
+  width: 255.32%;
+  top: -22.41px;
+  right: -150.21%;
+  left: -5.11%;
+  background-color: var(--color-black);
+  height: 2px;
+}
+.rectangle1,
+.rectangle2 {
+  top: 49.59px;
+}
+.rectangle2 {
+  top: -22.5px;
+  background-color: var(--color-white);
+  height: 72px;
+}
+.aboutUs,
+.blog,
+.myListings,
+.pricing,
+.roadmap {
+  position: absolute;
+  width: 11.28%;
+  top: 0.5px;
+  left: 26.38%;
+  line-height: 22.4px;
+  display: inline-block;
+}
+.aboutUs,
+.blog,
+.myListings,
+.roadmap {
+  text-decoration: none;
+  width: 7.02%;
+  left: 67.66%;
+  color: inherit;
+}
+.aboutUs,
+.myListings,
+.roadmap {
+  width: 17.45%;
+  left: 3.83%;
+}
+.aboutUs,
+.roadmap {
+  width: 15.96%;
+  left: 82.34%;
+}
+.roadmap {
+  width: 15.74%;
+  left: 44.26%;
+}
+.frame1 {
+  position: absolute;
+  width: 39.17%;
+  top: calc(50% - 12.59px);
+  right: 58.83%;
+  left: 2%;
+  height: 25.19px;
+}
+.rectangle3 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-black);
+  height: 70px;
+}
+.startSelling {
+  position: absolute;
+  width: 55.15%;
+  top: 23px;
+  left: 23.03%;
+  font-size: var(--font-size-sm);
+  line-height: 22.4px;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.frame2,
+.sartsellingbutton {
+  position: absolute;
+  right: 0;
+  height: 70px;
+}
+.sartsellingbutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 58.93%;
+  top: calc(50% - 35px);
+  left: 41.07%;
+}
+.frame2 {
+  text-decoration: none;
+  width: 23.33%;
+  top: calc(50% - 35.09px);
+  left: 76.67%;
+}
+.frame,
+.navbar {
+  width: 1480px;
+  height: 70px;
+}
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.navbar {
+  position: relative;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

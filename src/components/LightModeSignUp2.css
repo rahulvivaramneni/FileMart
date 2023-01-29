@@ -1,0 +1,288 @@
+.rectangle,
+.rectangle1,
+.rectangle2 {
+  position: absolute;
+  width: 255.32%;
+  top: -22.41px;
+  right: -150.21%;
+  left: -5.11%;
+  background-color: #000;
+  height: 2px;
+}
+.rectangle1,
+.rectangle2 {
+  top: 49.59px;
+}
+.rectangle2 {
+  top: -22.5px;
+  background-color: #fff;
+  height: 72px;
+}
+.about-us,
+.blog,
+.my-listings,
+.pricing,
+.roadmap {
+  position: absolute;
+  width: 11.28%;
+  top: 0.5px;
+  left: 26.38%;
+  line-height: 22.4px;
+  display: inline-block;
+}
+.about-us,
+.blog,
+.my-listings,
+.roadmap {
+  text-decoration: none;
+  width: 7.02%;
+  left: 67.66%;
+  color: inherit;
+}
+.about-us,
+.my-listings,
+.roadmap {
+  width: 17.45%;
+  left: 3.83%;
+}
+.about-us,
+.roadmap {
+  width: 15.96%;
+  left: 82.34%;
+}
+.roadmap {
+  width: 15.74%;
+  left: 44.26%;
+}
+.frame1 {
+  position: absolute;
+  width: 39.17%;
+  top: calc(50% - 12.59px);
+  right: 58.83%;
+  left: 2%;
+  height: 25.19px;
+}
+.rectangle3 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #000;
+  height: 70px;
+}
+.connect-wallet {
+  position: absolute;
+  top: 18.09px;
+  right:0px;
+  left: 13.03%;
+  font-size: 16px;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.frame2,
+.sartsellingbutton {
+  position: absolute;
+  right: 0;
+  height: 70px;
+}
+.sartsellingbutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 58.93%;
+  top: calc(50% - 35px);
+  left: 41.07%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frame2 {
+  text-decoration: none;
+  width: 23.33%;
+  top: calc(50% - 35.09px);
+  left: 76.67%;
+}
+.frame,
+.navbar {
+  width:100%;
+  height: 70px;
+  margin-bottom: 15px;
+}
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.navbar {
+  position: relative;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: 16px;
+  color: #000;
+}
+.list-your-file {
+  position: relative;
+  line-height: 32px;
+  font-weight: 500;
+}
+.icons-light {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Inter;
+}
+.name {
+  cursor: pointer;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  width: 611px;
+}
+.input-light {
+  border: 2px solid #23262f;
+  font-family: Inter;
+  font-size: 14px;
+  background-color: #fcfcfd;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 482px;
+  height: 56px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.prize {
+  line-height: 32px;
+  width: 611px;
+}
+.enter-price-of,
+.keywords,
+.prize {
+  position: relative;
+  display: inline-block;
+}
+.enter-price-of {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Inter;
+  color: #484c56;
+  width: 424px;
+}
+.keywords {
+  line-height: 32px;
+  width: 606px;
+}
+.icons-light1 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.like-education-figma {
+  position: relative;
+  line-height: 16px;
+}
+.warning {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.input-light-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  font-size: 12px;
+  color: #484c56;
+  font-family: Inter;
+}
+.checkbox-light,
+.inputs {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputs {
+  top: 0;
+  left: 0;
+  width: 1175px;
+  height: 621px;
+  flex-direction: column;
+  gap: 24px;
+}
+.checkbox-light {
+  cursor: pointer;
+  top: 653px;
+  left: 354.5px;
+  width: 433px;
+  height: 16.86px;
+  flex-direction: row;
+}
+.button {
+  position: relative;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #fcfcfd;
+  text-align: left;
+}
+.button-light {
+  cursor: pointer;
+  border: 0;
+  padding: 20px 10px;
+  background-color: #3772ff;
+  position: absolute;
+  top: 702px;
+  left: 330.5px;
+  border-radius: 50px;
+  width: 482px;
+  height: 59.01px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+/* .inputs-parent {
+  position: relative;
+  width: 1175px;
+  height: 761.01px;
+  flex-shrink: 0;
+  font-family: "Frank Ruhl Libre";
+} */
+.light-mode-sign-up-2 {
+  position: relative;
+  border-radius: 15px;
+  background-color: #FFC900;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px 680px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  text-align: left;
+  font-size: 24px;
+  color: #23262f;
+  font-family: Roboto;
+}

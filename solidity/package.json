@@ -1,0 +1,14 @@
+{
+  "name": "hardhat-project",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "chai": "^4.3.6"
+  },
+  "devDependencies": {
+    "hardhat": "^2.12.2"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "build": "npx hardhat compile"
+  }
+}
