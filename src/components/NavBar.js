@@ -12,20 +12,20 @@ const NavBar = () => {
           <div className={styles.rectangle1} />
           <div className={styles.rectangle2} />
           <div className={styles.pricing}>Pricing</div>
-          <a className={styles.blog} href="http://localhost:3000/blog">
+          <a className={styles.blog} href="./blog">
             Blog
           </a>
-          <a className={styles.myListings} href="http://localhost:3000/upload">
+          <a className={styles.myListings} href="../upload">
             My Listings
           </a>
-          <a className={styles.aboutUs} href="http://localhost:3000/about">
+          <a className={styles.aboutUs} href="../about">
             About Us
           </a>
-          <a className={styles.roadmap} href="http://localhost:3000/roadmap">
+          <a className={styles.roadmap} href="../roadmap">
             Roadmap
           </a>
         </div>
-        <a className={styles.frame2} href="http://localhost:3000/upload">
+        <a className={styles.frame2} href="../upload">
           <button className={styles.sartsellingbutton}>
             <div className={styles.rectangle3} />
             <div className={styles.startSelling}>Start Selling</div>

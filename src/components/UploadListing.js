@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Input, Row, Col, Steps, Result } from "antd";
+import { Button, Input,Card, Row, Col, Steps, Result } from "antd";
 import { datamarketUrl, ipfsUrl, getExplorerUrl, humanError, } from "../util";
 import { ACTIVE_CHAIN, APP_NAME, EXAMPLE_FORM, updateForm } from "../constants";
 import { FileDrop } from "./FileDrop/FileDrop";
@@ -124,16 +124,16 @@ function UploadListing({network, account}) {
             <div className="rectangle1" />
             <div className="rectangle2" />
             <div className="pricing">Pricing</div>
-            <a className="blog" href="http://localhost:3000/blog">
+            <a className="blog" href=".blog">
               Blog
             </a>
-            <a className="my-listings" href="http://localhost:3000/upload">
+            <a className="my-listings" href="../upload">
               My Listings
             </a>
-            <a className="about-us" href="http://localhost:3000/about">
+            <a className="about-us" href="../about">
               About Us
             </a>
-            <a className="roadmap" href="http://localhost:3000/roadmap">
+            <a className="roadmap" href="../roadmap">
               Roadmap
             </a>
           </div>
@@ -221,8 +221,7 @@ function UploadListing({network, account}) {
             <br />
             </>}
             </div>
-            {error && <div className="error-text">Error: {error}</div>}
-            {result && (<div>
+            {result && (<Card style={{backgroundColor:"#FFC900"}}><div>
               <Result status="success"
  title="Created Listing!" subTitle="Access your page and content below"/>
               <div>
@@ -244,7 +243,7 @@ function UploadListing({network, account}) {
                 </p>
               </div>
               </div>
-            )}
+              </Card>)}
           </div>
         </Col>
         <Col span={1}></Col>
