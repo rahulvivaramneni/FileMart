@@ -9,6 +9,9 @@ import { useSigner } from "wagmi";
 import TextArea from "antd/lib/input/TextArea";
 import FileUploadArea from "./FileDrop/FileUploadArea.tsx";
 import "./LightModeSignUp2.css";
+import { CheckCircleTwoTone, HeartTwoTone, SmileTwoTone } from '@ant-design/icons';
+import logo from "../assets/success.gif"
+
 import { Web3Button } from "@web3modal/react";
 
 const queryParameters = new URLSearchParams(window.location.search)
@@ -222,23 +225,24 @@ function UploadListing({network, account}) {
             </>}
             </div>
             {result && (<Card style={{backgroundColor:"#FFC900"}}><div>
-              <Result status="success"
- title="Created Listing!" subTitle="Access your page and content below"/>
+            <img width={"280px"}  alt="" src={logo} />
+              <h2 align="center">Listing Created</h2>
+           
               <div>
                 <a href={ipfsUrl(result.dataUrl)} target="_blank">
-                  View files
+                  View listed files
                 </a>
                 <br />
                 <a href={result.contractUrl} target="_blank">
-                  View created contract
+                  Transaction details (contract)
                 </a>
                 <br />
                 <br />
                 <p>
-                  Share or post this page with potential customers
+                  Share the link with your followers who want to buy
                   <br />
                   <a href={result.datamarketUrl} target="_blank">
-                    View listing page
+                    View listing/sales page
                   </a>
                 </p>
               </div>
