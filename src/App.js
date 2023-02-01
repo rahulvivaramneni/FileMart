@@ -32,7 +32,7 @@ function App() {
 
   const pathname = window.location.pathname
 
-  const isListingPage = pathname.indexOf('/#/listing/') !== -1
+  const isListingPage = pathname.indexOf('/listing/') !== -1
 //   <span className="web3-button">
 //   <Web3Button />
 // </span>
@@ -46,10 +46,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 {/* <Route path="/carbon-map" element={<HomePage/>}/> */}
-                <Route path="/#/about" element={<About/>}/>
-                <Route path="/#/upload" element={<UploadListing account={account} network={network}/>}/>
-                <Route path="/#/listing/:contractAddress" element={<PurchaseListing account={account} network={network} />}/>
-                <Route path="/#/about" element={<About/>}/>
+                <Route path="/about" element={<About/>}/>
+                <Route path="/upload" element={<UploadListing account={account} network={network}/>}/>
+                <Route path="/listing/:contractAddress" element={<PurchaseListing account={account} network={network} />}/>
+                <Route path="/about" element={<About/>}/>
 
               </Routes>
             </div>
