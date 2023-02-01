@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter , HashRouter} from 'react-router-dom';
 import {  APP_NAME, CHAIN_OPTIONS, WEB3_PROJECT_ID } from './constants';
 import { Web3Modal } from '@web3modal/react';
 import { EthereumClient, modalConnectors, walletConnectProvider } from '@web3modal/ethereum';
@@ -34,7 +34,7 @@ const ethereumClient = new EthereumClient(wagmiClient, chains);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <BrowserRouter>
+      <HashRouter>
         <WagmiConfig client={wagmiClient}>
           <App />
         </WagmiConfig>
@@ -45,7 +45,7 @@ root.render(
         accentColor="default"
         ethereumClient={ethereumClient}
       />
-      </BrowserRouter>
+      </HashRouter>
     
   </React.StrictMode>
 );
