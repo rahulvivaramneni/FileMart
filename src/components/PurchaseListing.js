@@ -94,17 +94,16 @@ console.log(dataset)
 
 
   return (
-    <>
+    <div height= "100%">
     <NavBar/>
-    <div>
+    <div  style={{backgroundColor:"#FFC900"}}>
     <div className='boxed purchase-page' >
-      <Card  style={{backgroundColor:"#FFC900"}} title={  <span className='centered success-text'>Dataset available for purchase</span>}>
+      <Card  style={{backgroundColor:"#FFC900"}} title={  <span className='centered success-text'>Files available for purchase</span>}>
 
       {dataset && <div className='centered card boxed'>
         <h2>{dataset.title}</h2>
         <p>{dataset.description}</p>
         {dataset.createdAt && <p>Listed at: {dataset.createdAt}</p>}
-        {/* {!isNaN(dataset.purchases) && <p>Purchases: {dataset.purchases}</p>} */}
         {dataset.priceEVM && <p>Price: {dataset.priceEVM} TFIL</p>}
 
         <p>Keywords: {dataset.keywords}</p>
@@ -119,7 +118,7 @@ console.log(dataset)
       <p><a href="#" onClick={(e) => {
         e.preventDefault()
         setFlagModal(true)
-      }}>Flag Dataset</a></p>
+      }}>Flag Files</a></p>
 
       {!isReady && <div><Web3Button/></div>}
       <br/>
@@ -145,7 +144,7 @@ console.log(dataset)
 
       <Modal title={`Flag listing`} open={flagModal} onOk={flag} onCancel={() => setFlagModal(false)}>
         {dataset?.title && <p><b>Listing: {dataset.title}</b></p>}
-        <p>Flag this dataset if you know or believe the contents to be invalid.</p>
+        <p>Flag this File if you know or believe the contents to be invalid.</p>
         <p>Your account address will be recorded.</p>
         <h5>Reason</h5>
         <TextArea
@@ -156,6 +155,6 @@ console.log(dataset)
             />
       </Modal>
 
-    </div></div></>
+    </div></div></div>
   )
 }
