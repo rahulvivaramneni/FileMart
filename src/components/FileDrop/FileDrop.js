@@ -29,12 +29,6 @@ const thumbInner = {
   overflow: "hidden",
 };
 
-const img = {
-  display: "block",
-  width: "auto",
-  height: "100%",
-};
-
 export function FileDrop({ files, setFiles }) {
   const { getRootProps, getInputProps } = useDropzone({
     onDrop: (acceptedFiles) => {
@@ -79,10 +73,10 @@ export function FileDrop({ files, setFiles }) {
     <section>
       <div {...getRootProps({ className: "dropzone" })}>
         <input {...getInputProps()} />
-        <p>Drag 'n' drop some files here, or click to select files</p>
+        <p>Upload files here</p>
       </div>
       <br />
-      <b>{files.length === 0 ? 'Please Upload file(s) before continuing.' : 'Files to upload:'}</b>
+      <b className="input-light" style={{backgroundColor:"#FFC900"}}>{files.length === 0 ? 'Please Upload file(s) before continuing.' : 'Files to upload:'}</b>
       <aside style={thumbsContainer}>{thumbs}</aside>
     </section>
   );
