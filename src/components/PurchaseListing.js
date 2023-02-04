@@ -98,27 +98,27 @@ console.log(dataset)
     <NavBar/>
     <div  style={{backgroundColor:"#FFC900"}}>
     <div className='boxed purchase-page' >
-      <Card  style={{backgroundColor:"#FFC900"}} title={  <span className='centered success-text'>Files available for purchase</span>}>
+      <Card bordered='true' style={{backgroundColor:"#FFC900"}} title={  <span className='centered success-text'>Files available for purchase</span>}>
 
       {dataset && <div className='centered card boxed'>
-        <h2>{dataset.title}</h2>
-        <p>{dataset.description}</p>
-        {dataset.createdAt && <p>Listed at: {dataset.createdAt}</p>}
-        {dataset.priceEVM && <p>Price: {dataset.priceEVM} TFIL</p>}
+        <h1 style={{ marginBottom: '2em'}} >{dataset.title}</h1>
+        <p style={{fontSize:'20px', textAlign: 'left', marginLeft: '20em',marginRight:'6.5em'}}><strong>Description: </strong>{dataset.description}</p>
+        {dataset.createdAt && <p style={{fontSize:'20px',textAlign: 'left', marginLeft: '20em'}}><strong>Listed at: </strong> {dataset.createdAt}</p>}
+        {dataset.priceEVM && <p style={{fontSize:'20px',textAlign: 'left', marginLeft: '20em'}}><strong>Price: </strong> {dataset.priceEVM} TFIL</p>}
 
-        <p>Keywords: {dataset.keywords}</p>
+        <p style={{fontSize:'20px',textAlign: 'left', marginLeft: '20em'}}><strong> Keywords: </strong>{dataset.keywords}</p>
         <br/>
+       
 
 
-      {isReady && !result && <Button type="primary" size="large" loading={loading} onClick={purchase}>
+      {isReady && !result && <Button style={{fontSize: '26px',height:"65px"}} type="primary" size="large" loading={loading} onClick={purchase}>
         Purchase dataset
       </Button>}
-      <br/>
 
       <p><a href="#" onClick={(e) => {
         e.preventDefault()
         setFlagModal(true)
-      }}>Flag Files</a></p>
+      }}> <p style={{textAlign:"center", marginLeft: '0em',marginTop: '1em'}}>Flag Files</p></a></p>
 
       {!isReady && <div><Web3Button/></div>}
       <br/>
