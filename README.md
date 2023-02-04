@@ -26,3 +26,32 @@ https://filemart-7b3f4b.spheron.app <br />
 
 ## Roadmap
 https://filemart.vercel.app/roadmap
+![FileMart Roadmap](https://user-images.githubusercontent.com/61940373/216787054-a75de0c6-1d1c-4d7e-90a4-d95097e47823.png)
+
+## HomePage (full homepage figma file is attached at the end)
+![image](https://user-images.githubusercontent.com/61940373/216787362-6da63859-22b1-49e1-8e8b-c7e3b0795c76.png)
+
+## Listing Page
+![image](https://user-images.githubusercontent.com/61940373/216787285-2b005feb-f0ec-4d3b-a58a-19e3d96b6573.png)
+![image](https://user-images.githubusercontent.com/61940373/216787338-bf35ecca-9282-41b9-871b-9044cedbc70f.png)
+
+## Successfull Listing
+![image](https://user-images.githubusercontent.com/61940373/216787417-79adedd3-a365-4977-b4c8-0fc80403166a.png)
+
+## Listed Files on IPFS
+![image](https://user-images.githubusercontent.com/61940373/216787442-462aac2b-b6c5-41ae-bf3e-193982160fb8.png)
+
+## Sales Landing Page
+![image](https://user-images.githubusercontent.com/61940373/216787459-da0fc4d1-f0c5-46ee-8d28-1674ecbf21d5.png)
+![image](https://user-images.githubusercontent.com/61940373/216787556-1d87da8c-cbf4-4799-a81b-356637e5abd8.png)
+
+## Transaction Details
+![image](https://user-images.githubusercontent.com/61940373/216787480-e715bef7-c406-4dda-99b6-c6237baaeb8c.png)
+
+## HomePage
+![FileMart HomePage Figma](https://user-images.githubusercontent.com/61940373/216787211-9c00b540-fe58-48e0-be53-a922d194afdc.png)
+
+
+
+
+
