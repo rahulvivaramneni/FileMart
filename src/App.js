@@ -9,6 +9,7 @@ import {
   FormOutlined,
 } from "@ant-design/icons";
 import { About } from "./components/About";
+import Roadmap from "./components/Roadmap";
 import { ACTIVE_CHAIN, APP_DESC, APP_NAME, COVALENT_KEY } from "./constants";
 import Lookup from "./components/PurchaseListing";
 
@@ -44,12 +45,14 @@ function App() {
             <div>
            
             <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route exact path="/" element={<HomePage />} />
                 {/* <Route path="/carbon-map" element={<HomePage/>}/> */}
-                <Route path="/about" element={<About/>}/>
-                <Route path="/upload" element={<UploadListing account={account} network={network}/>}/>
-                <Route path="/listing/:contractAddress" element={<PurchaseListing account={account} network={network} />}/>
-                <Route path="/about" element={<About/>}/>
+                <Route exact path="/about" element={<About/>}/>
+                <Route exact path="/upload" element={<UploadListing account={account} network={network}/>}/>
+                <Route exact path="/listing/:contractAddress" element={<PurchaseListing account={account} network={network} />}/>
+                <Route exact path="/about" element={<About/>}/>
+                <Route exact path="/roadmap" element={<Roadmap/>}/>
+
 
               </Routes>
             </div>

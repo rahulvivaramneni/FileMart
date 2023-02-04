@@ -225,13 +225,14 @@ function UploadListing({network, account}) {
             </>}
             </div>
             {result && (<Card style={{backgroundColor:"#FFC900"}}><div>
-            <img width={"280px"}  alt="" src={logo} />
-              <h2 align="center">Listing Created</h2>
+            <img width={"350px"}  alt="" src={logo} />
+              <h1 align="center">Listing Created</h1>
            
-              <div>
+              <div style={{fontSize:'19px'}}>
                 <a href={ipfsUrl(result.dataUrl)} target="_blank">
                   View listed files
                 </a>
+                <br/>
                 <br />
                 <a href={result.contractUrl} target="_blank">
                   Transaction details (contract)
@@ -239,7 +240,7 @@ function UploadListing({network, account}) {
                 <br />
                 <br />
                 <p>
-                  Share the link with your followers who want to buy
+                  <i style={{fontSize:"18px"}}>Share the link with your followers who want to buy</i>
                   <br />
                   <a href={result.datamarketUrl} target="_blank">
                     View listing/sales page
