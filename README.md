@@ -1,4 +1,4 @@
-**This Project is built in FVM Space Wrap Hacathon**
+**This Project is built in FVM Space Wrap Hackathon**
 
 # FileMart
 FileMart is a decentralized marketplace where anyone can buy/sell any digital products such as college notes, music, 3D pictures, designs, audio books, and e-books using the Filecoin blockchain and FEVM smart contracts. Unlike traditional data exchange platforms, FileMart is self-governing data exchange platform which does not require long term commitments or the use of intermediaries, resulting in lower fees and no staff overhead.
