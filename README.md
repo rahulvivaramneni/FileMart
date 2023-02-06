@@ -3,7 +3,7 @@
 # FileMart
 FileMart is a decentralized marketplace where anyone can buy/sell any digital products such as college notes, music, 3D pictures, designs, audio books, and e-books using the Filecoin blockchain and FEVM smart contracts. Unlike traditional data exchange platforms, FileMart is self-governing data exchange platform which does not require long term commitments or the use of intermediaries, resulting in lower fees and no staff overhead.
 
-FileMart is self-governing, meaning that if a fraudulent dataset is uploaded and sold, it can be flagged by a purchaser or potential purchaser. After three flags, the dataset page is locked.
+FileMart is **self-governing**, meaning that if a fraudulent dataset is uploaded and sold, it can be flagged by a purchaser or potential purchaser. After three flags, the dataset page is locked.
 
 To ensure that the data provides user satisfaction, the user is only paid out from the contract after three non-flagged successful sales and each sale after that, this is done automatically via logic tied to the contract in the code.
 
