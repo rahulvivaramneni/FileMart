@@ -22,7 +22,7 @@ yarn start
 ## Live website:
 Right now FileMart is deployed on Spheron & Vercel  <br />
 https://filemart.vercel.app/ <br />
-https://filemart-7b3f4b.spheron.app <br />
+https://filemart.awisher.com/ <br />
 
 ## Roadmap
 https://filemart.vercel.app/roadmap
