@@ -9,10 +9,10 @@ export const IS_LOCAL = hostname.indexOf("localhost") !== -1
 export const COVALENT_KEY = process.env.REACT_APP_COVALENT_KEY ||"abc"; // covalent api key
 
 export const EXAMPLE_FORM = {
-    'title': 'Blockchain cheat sheet pdf',
-    'description': 'It is an introductory, easy-to-digest cheat sheet for anyone who wants to learn a little more about cryptocurrencies.',
+    'title': 'FEVM cheat sheet pdf',
+    'description': 'It is an introductory, easy-to-digest cheat sheet for anyone who wants to learn a little more about Filecoin Vitual Machine.',
     'dataUrl': 'bafybeid7qdfukeqgzsnnaho66lgh6roh6s7fhzb3v3opys2qoukozmpvha',
-    'keywords': 'blockchain, web3, cheat sheet, blochain basics, Filecoin',
+    'keywords': 'FEVM, web3, cheat sheet, blochain basics, Filecoin',
     'createdAt': formatDate(),
     'priceEVM': 0.01,
     'files': []
