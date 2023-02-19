@@ -11,8 +11,6 @@ import { DATAMARKET_CONTRACT } from "./metadata";
 // https://dapp-world.com/smartbook/how-to-use-ethers-with-fevm-k5Hn
 export async function deployContract(signer, title, description, dataUrl, priceEVM, keywords, size) {
 
-  //   https://dev.to/yosi/deploy-a-smart-contract-with-ethersjs-28no
-
     const provider = new ethers.providers.Web3Provider(window.ethereum, "any");
 
   // Create an instance of a Contract Factory
